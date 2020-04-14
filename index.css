@@ -1,0 +1,428 @@
+﻿body{
+        font-family:HelveticaLTStd;
+        font-size:14px;
+        font-weight:normal;
+}
+@font-face{
+	     font-family:"Museo";
+		 src:url("fonts/Museo500.otf") format("truetype");
+}
+@font-face{
+          font-family:"HelveticaLTStd";
+		  src:url("fonts/HelveticaLTStd-Light.otf") format("truetype");
+		  font-weight:normal;
+}
+
+@font-face{
+       font-family:"BROADW";
+	   src:url("fonts/BROADW.ttf") format("truetype");
+}
+h1,h2,h3,h4,h5,h6{
+        font-family:"HelveticaLTStd", Rockwell, serif;
+		font-weight:bold;
+}
+/************* jubbotron inner ***********/
+
+.top{
+ border-bottom:1px solid rgba(255,255,255,0.15);
+}
+.jumbotron .navbar-brand{
+        text-indent:-9999px;
+		background:url(img/logo.png) no-repeat;
+		width:108px;
+		height:74px;
+}
+.st{
+     position:relative;
+	 display:inline-table;
+	
+}
+.jumbotron input[type="text"]{
+        background:transparent;
+		margin-top:3px;
+		font-size:12px;
+		border:1px solid rgba(255,255,255,0.2); 
+		border-radius:20px;
+		padding:5px;
+		color:#fff;
+		display:none;
+		
+}
+.jumbotron #search.magnifier{
+       background:url(img/search-icon.png) no-repeat;
+	   width:16px;
+	   height:16px;
+	   display:inline-block;
+	   z-index:10;
+	   position:relative;
+	   top:13px;
+	   margin-left:5px;
+	   margin-bottom:5px;
+	   
+
+}
+.jumbotron .navbar-default{
+       background-color:transparent;
+	   border:none;
+	   margin-top:0px;
+	   margin-bottom:0px;
+	   margin-right:0px;
+	   margin-left:0px;
+	   padding:0px;
+	   vertical-align:text-bottom !important;
+}
+.jumbotron .navbar-nav{
+        margin-top:20px;
+        margin-right:10px;
+		vertical-align:text-bottom !important;
+	 transition:all 0.7s ease;
+}
+.jumbotron .navbar-toggle{
+       background:transparent;
+	   margin-top:20px;
+	   transition:all 0.7s ease;
+}
+.jumbotron .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+       background:none;
+}
+.jumbotron .navbar-default .navbar-toggle .icon-bar{
+         background:#fff;
+}
+.jumbotron .nav > li > a{
+       padding:10px 12px;
+	   color:#fff;
+	   font-size:14px;
+	   text-shadow:0px 1px 0px rgba(0,0,0,0.3);
+	   font-weight:normal;
+	   transition:all 0.5s ease;
+}
+.jumbotron .navbar-collapse{
+       border:none;
+	   box-shadow:none;
+}
+.jumbotron .nav > li  > a:hover{
+      color:#ed0500;
+}
+.jumbotron-inner h1{
+      color:#fff;
+	  text-shadow:0px 1px 0 rgba(0,0,0,0.7);
+	  font-size:48px;
+	  margin-top:130px;
+	  margin-bottom:10px;
+	  font-family:BROADW;
+	  font-weight:normal;
+}
+.jumbotron-inner h4{
+      color:#fff;
+	  text-shadow:0px 1px 0px rgba(9,0,0,0.7);
+	  font-size:20px;
+	  margin-bottom:30px;
+	  font-weight:normal;
+	  font-family:museo;
+}
+.jumbotron-inner .btn-primary{
+      box-shadow:1px 2px 3px rgba(0,0,0,0.7) ;
+      background:#0089ea;
+	  border-radius:3px;
+	  padding:8px 16px;
+	  font-size:16px;
+	  margin-right:10px;
+	  border:none;
+	  transition:all .1s ease;
+}
+.jumbotron-inner .btn-primary:hover{
+      background:#077ad1;
+}
+.jumbotron-inner a{
+      color:#fff;
+	  font-size:16px;
+}
+.jumbotron-inner img{
+      margin-top:50px;
+}
+.jumbotron .carousel .item > img{
+       display:inline;
+}
+.jumbotron .carousel-indicators{
+      bottom:5px;
+	  left:95%;
+}
+.carousel .left-arrow{
+	background:url("img/arrow.png") no-repeat;
+	height:35px;
+	width:35px;
+	display:inline-block;
+	position:absolute;
+	top:50%;
+	z-index:10;
+	left:-35px;
+	opacity:0;
+	transition:all 1s ease;
+}
+.carousel:hover .left-arrow{
+	opacity:1;
+	transform:translatex(60px);
+}
+.carousel .right-arrow{
+	background:url("img/arrow.png") no-repeat;
+	height:35px;
+	width:35px;
+	display:inline-block;
+	position:absolute;
+	top:50%;
+	right:-35px;
+	background-position:-35px top;
+	opacity:0;
+	transition:all 1s ease;
+}
+.carousel:hover .right-arrow{
+	  opacity:1;
+	  transform:translatex(-60px);
+}
+
+.jumbotron{
+      background:url(img/jumbotron.png) no-repeat  top;
+	  background-size:cover;
+      padding:40px 0px 0px;
+	  margin:0px;
+}
+
+/************end jumbotron*****************/
+
+/******************** Process**************/
+#process{
+      background:#e6e6e6;
+	  padding-top:30px;
+	  padding-bottom:20px;
+	  box-shadow:0 -5px 10px rgba(0,0,0,0.7);
+	  z-index:10;
+}
+#process h4{
+      font-size:16px;
+	  font-family:museo;
+}
+.heading{
+      margin-bottom:10px;
+	  color:#333;
+}
+p{
+      color:#515151;
+	  font-size:14px;
+	  line-height:20px;
+}
+.process-icon{
+      margin-bottom:0px;
+      background:url(img/icons.png) no-repeat;
+	  height:26px;
+	  width:26px;
+	  display:inline-block;
+	  background-position:left top;
+}
+.process-icon.idesign{
+      background-position:-26px top;
+}
+.process-icon.idevelop{
+      background-position:-52px top;
+}
+.process-icon.ilaunch{
+      background-position:-78px top;
+}
+#process .btn.btn-primary{
+      background:#373737;
+	  border:1px solid #535353;
+	  margin-top:20px;
+	  -moz-border-radius:3px;
+	  -webkit-border-radius:3px;
+	  border-radius:3px;
+	  padding:5px 14px;
+	  font-size:12px;
+	  font-weight:bold;
+	  transition:all 0.5s linear 0s;
+}
+#process .btn.btn-primary:hover{
+      background:transparent;
+	  color:#373737;
+}
+/***************** End Process**************/
+
+/****************Portfolio*****************/
+#portfolio{
+      background:#d7d7d7;
+      padding-top:30px;
+	  padding-bottom:40px;
+}
+#portfolio h4{
+      color:#333;
+	  font-size:16px;
+	  font-family:museo;
+}
+#portfolio .margin{
+      margin-bottom:10px !important;
+}
+#portfolio strong a{
+      color:#ee0000;
+	  font-size:12px;
+	  transition:all 1s linear 0s;
+}
+#portfolio .img-large{
+	overflow:hidden;
+	display:inline-block;
+	border:5px solid #fff;
+	border-radius:5px;
+}
+#portfolio .img-hover:hover{
+	transform:scale(1.2,1.2);
+	opacity:.5;
+}
+
+/**************** End Portfolio*****************/
+
+/**************** widgets ********************/
+#border{
+      border-top:1px solid rgba(255,255,255,0.6);
+      border-bottom:1px solid rgba(255,255,255,0.6);
+      padding-top:30px;
+      padding-bottom:30px;
+}
+#widgets{
+      background:#d7d7d7;
+}
+#widgets h4{
+      font-size:16px;
+	  font-family:museo;
+}
+#widgets .posts .post-list{
+      list-style:none;
+	  padding:0;
+	  margin:0;
+}
+#widgets .post-list h6 a{
+      color:#515151;
+	  font-size:12px;
+}
+#widgets .post-list p a:hover{
+      text-decoration:none;
+	  color:#101010;
+}
+#widgets .post-list small a{
+      color:#999;
+}
+#widgets .post-list small a:hover{
+      text-decoration:none;
+}
+#widgets .post-list li{
+      border-bottom:1px solid rgba(255,255,255,0.8);
+	  padding:15px 0px;
+}
+#widgets .post-list li:first-child, #widgets .tweet-list li:first-child{
+      padding-top:0;
+}
+#widgets .post-list li:last-child{
+      border-bottom:0;
+}
+#widgets .tweets p a{
+   
+}
+#widgets .tweets p a:hover{
+      text-decoration:none;
+	  color:#101010;
+}
+#widgets .tweets img{
+      margin-right:20px;
+}
+#widgets .tweets ul{
+      list-style:none;
+	  padding:0;
+	  margin:0;
+}
+#widgets .tweet-list li{
+      border-bottom:1px solid rgba(255,255,255,0.8);
+	  padding:15px 0px;
+}
+/**************** End widgets ********************/
+
+/**************** footer**************************/
+
+#footer{
+      background:#c3c3c3;
+	  padding:30px 0px;
+}
+#footer .social-sprite{
+       margin-top:35px;
+	   margin-bottom:30px;
+}
+#footer .social-sprite .fb{
+       background:url(img/social-sprite-bw.png) no-repeat;
+	   background-position:left top;
+	   height:32px;
+	   width:32px;
+	   display:inline-block;
+	   text-indent:-9999px;
+}
+#footer .social-sprite .fb:hover{
+	background:url(img/social-sprite.png) no-repeat;
+}
+#footer .social-sprite .tw{
+       background:url(img/social-sprite-bw.png) no-repeat;
+	   background-position:-32px top;
+	   height:32px;
+	   width:32px;
+	   display:inline-block;
+	   text-indent:-9999px;
+}
+#footer .social-sprite .tw:hover{
+	background:url(img/social-sprite.png) no-repeat;
+	background-position:-32px top;
+}
+#footer .social-sprite .gp{
+       background:url(img/social-sprite-bw.png) no-repeat;
+	   background-position:-64px top;
+	   height:32px;
+	   width:32px;
+	   display:inline-block;
+	   text-indent:-9999px;
+}
+#footer .social-sprite .gp:hover{
+	background:url(img/social-sprite.png) no-repeat;
+	background-position:-64px top;
+}
+#footer .social-sprite .yt{
+       background:url(img/social-sprite-bw.png) no-repeat;
+	   background-position:-96px top;
+	   height:32px;
+	   width:32px;
+	   display:inline-block;
+	   text-indent:-9999px;
+}
+#footer .social-sprite .yt:hover{
+	background:url(img/social-sprite.png) no-repeat;
+	background-position:-96px top;
+}
+#footer .copyright{
+        color:#333;
+		font-size:14px;
+}
+
+/**************** End footer**************************/
+
+@media(max-width:992px){
+#process .btn.btn-primary{
+         margin-bottom:20px;
+}
+
+.carousel .left-arrow{
+	 background:url("img/arrow-s.png") no-repeat;
+	 display:inline-block;
+	 height:25px;
+	 width:25px;
+	 background-position:left top;
+}
+.carousel .right-arrow{
+	 background:url("img/arrow-s.png") no-repeat;
+	 display:inline-block;
+	 height:25px;
+	 width:25px;
+	 background-position:-25px top;
+}
+
+}
